@@ -1,6 +1,39 @@
 /* PLUGINS */
 /* BASE STYLES */
+#top {
+  width: 100%;
+  height: 450px;
+  background-color: violet; }
+
+#about {
+  width: 100%;
+  height: 500px;
+  background-color: white; }
+
+#gallery {
+  width: 100%;
+  height: 500px;
+  background-color: gray; }
+
+#pricing {
+  width: 100%;
+  height: 600px;
+  background-color: white; }
+
+#footer {
+  width: 100%;
+  height: 300px;
+  background-color: pink; }
+
 /* LAYOUTS */
 /* MODULES */
+#about img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 75px;
+  margin-bottom: 50px; }
+
+#about p {
+  padding-bottom: 50px; }
 
 /*# sourceMappingURL=app.css.map */
