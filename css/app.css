@@ -1,8 +1,12 @@
 /* PLUGINS */
 /* BASE STYLES */
+#top-wrapper {
+  position: relative;
+  overflow: hidden; }
+
 #top {
   width: 100%;
-  height: 450px; }
+  height: 500px; }
 
 #about {
   width: 100%;
@@ -51,9 +55,13 @@
   margin: 20px; }
 
 #top {
-  background-color: teal;
-  background: cover;
-  height: 400px; }
+  background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%; }
+
+#top img {
+  margin-left: 200px; }
 
 #gallery h2 {
   color: white;
